@@ -86,22 +86,26 @@ Se imprimira: 7 , 14 , 21
 """
 
 #10
-def addition(b,c):
-    return b+c
-    return 10
-print(addition(3,5))
-
+def addition(b,c):          #Se define la funcion con elementos
+    return b+c              #Se retorna la suma de los elementos
+    return 10               #Se retorna 10
+print(addition(3,5))        #Se imprime la funcion junto con los elementos
+"""
+Se imprimira: Error o nada 
+"""
 
 #11
-b = 500
-print(b)
-def foobar():
-    b = 300
-    print(b)
-print(b)
-foobar()
-print(b)
-
+b = 500                     #Se define que b es igual a 500
+print(b)                    #Se imprime b
+def foobar():               #Se define la funcion
+    b = 300                 #Se define que b es igual a 300
+    print(b)                #Se imprime b
+print(b)                    #Se imprime b
+foobar()                    #Se designa la funcion
+print(b)                    #Se imprime b
+"""
+Se imprimira: Error, almenos que solo se imprima una vez (b), que vendria siendo 500
+"""
 
 #12
 b = 500
@@ -113,7 +117,9 @@ def foobar():
 print(b)
 foobar()
 print(b)
-
+"""
+Se imprimira: 500
+"""
 
 #13
 b = 500
@@ -125,7 +131,10 @@ def foobar():
 print(b)
 b=foobar()
 print(b)
-
+"""
+Se imprimira: 500 
+Resultado correcto: Error
+"""
 
 #14
 def foo():
@@ -135,7 +144,9 @@ def foo():
 def bar():
     print(3)
 foo()
-
+"""
+Se Imprimira: Error
+"""
 
 #15
 def foo():
@@ -148,3 +159,7 @@ def bar():
     return 5
 y = foo()
 print(y)
+"""
+Se imprimira 10, 5
+Resultado correcto: Error
+"""
