@@ -20,7 +20,8 @@ def number_of_books_on_hold():      #Se define una funcion
     return 10                       #Se retorna 10
     print(number_of_books_on_hold())    #Se imprime la funcion
 """
-Se imprimira: 15, (Se imprimia 5)
+Se imprimira: 15
+Resultado correcto: 5
 """
 
 #4
@@ -30,6 +31,7 @@ def number_of_fingers():            #Se define una funcion
 print(number_of_fingers())          #Se imprime la funcion
 """
 Se imprimira: 10
+Resultado correcto: 5
 """
 
 #5
@@ -38,7 +40,8 @@ def number_of_great_lakes():        #Se define una funcion
 x = number_of_great_lakes()         #Se asigna que x es igual a la funcion definada
 print(x)                            #Se imprime x
 """
-Se imprimira: 5, 5  (Se imprimia 5, None)
+Se imprimira: 5, 5 
+Resultado correcto: 5, None
 """
 
 #6
@@ -68,7 +71,8 @@ def number_of_oceans_or_fingers_or_continents():        #Se define la funcion
     return 7                                            #Se retorna 7
 print(number_of_oceans_or_fingers_or_continents())      #Se imprime la funcion
 """
-Se imprimira: 100, 5  (Se imprimia 100, 10)
+Se imprimira: 100, 5
+Resultado correcto: 100, 10
 """
 
 #9
@@ -82,7 +86,7 @@ print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))                  
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))                          #Se imprime la funcion y elementos
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))    #Se imprime la suma de funciones con elementos
 """
-Se imprimira: 7 , 14 , 21
+Se imprimira: 21
 """
 
 #10
@@ -91,7 +95,8 @@ def addition(b,c):          #Se define la funcion con elementos
     return 10               #Se retorna 10
 print(addition(3,5))        #Se imprime la funcion junto con los elementos
 """
-Se imprimira: Error o nada 
+Se imprimira: Error
+Resultado correcto: 8
 """
 
 #11
@@ -104,7 +109,8 @@ print(b)                    #Se imprime b
 foobar()                    #Se designa la funcion
 print(b)                    #Se imprime b
 """
-Se imprimira: Error, almenos que solo se imprima una vez (b), que vendria siendo 500
+Se imprimira: 500,300, 300, 500
+Resultado correcto: 500,500, 300, 500
 """
 
 #12
@@ -118,7 +124,7 @@ print(b)
 foobar()
 print(b)
 """
-Se imprimira: 500
+Se imprimira: 500, 500, 300, 500
 """
 
 #13
@@ -132,8 +138,7 @@ print(b)
 b=foobar()
 print(b)
 """
-Se imprimira: 500 
-Resultado correcto: Error
+Se imprimira: 500, 500, 300, 300
 """
 
 #14
@@ -146,6 +151,7 @@ def bar():
 foo()
 """
 Se Imprimira: Error
+Resultado correcto: 1, 3, 2
 """
 
 #15
@@ -160,6 +166,5 @@ def bar():
 y = foo()
 print(y)
 """
-Se imprimira 10, 5
-Resultado correcto: Error
+Se imprimira: 1, 3, 5, 10
 """
